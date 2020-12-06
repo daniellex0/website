@@ -1,0 +1,69 @@
+/*---------------------------
+| Base Page Card Foundation
+---------------------------*/
+
+.page-card {
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+/*---------------------------
+| Card Colors
+---------------------------*/
+
+// White 
+
+.card-primary {
+    background: $color-white;
+}
+
+  // Pink  
+
+.card-secondary {
+    background: #f7f5f5; // change to mixin
+}
+
+/*---------------------------
+| Page Card Size
+---------------------------*/
+
+// Expandable
+
+.page-card-expandable {
+    box-shadow: 0 0 8px 0 rgba(51, 51, 51, 0.2); 
+    margin: 5%;
+    padding: 5% 12.5%;
+    text-align: center;
+
+    @media #{$bp-below-tablet} { 
+        padding: 12.5% 10%;
+    }
+}
+
+
+  // Large 
+
+.page-card-lg {
+    max-width: 896px;
+    box-shadow: 0 0 8px 0 rgba(51, 51, 51, 0.2); 
+    padding: 30px;
+    margin: 12px auto;
+    margin-bottom: 0;
+
+    // NEW MOBILE FRIENDLY RULES
+    @media #{$bp-below-mobile} {
+        padding: 30px 15px;
+        p.accordion {
+        display: inline-block;
+        width: 100%;
+        }
+    }
+    }
+
+
+  // Medium 
+.page-card-md {
+    max-width: 800px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.25); 
+}

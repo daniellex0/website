@@ -56,22 +56,22 @@
   }
 }
 
-.project-page-card {
-  background: $color-white;
-  border: 0 solid rgba($color-black, 0.06);
-  border-radius: 16px;
-  box-shadow: 0 0 8px 0 rgba($color-black, 0.2);
-  overflow: hidden;
-  max-width: 896px;
-  margin: 12px auto;
-  margin-bottom: 0;
-  padding: 30px;
+// .project-page-card {
+//   background: $color-white;
+//   border: 0 solid rgba($color-black, 0.06);
+//   border-radius: 16px;
+//   box-shadow: 0 0 8px 0 rgba($color-black, 0.2);
+//   overflow: hidden;
+//   max-width: 896px;
+//   margin: 12px auto;
+//   margin-bottom: 0;
+//   padding: 30px;
 
-  // NEW MOBILE FRIENDLY RULES
-  @media #{$bp-below-mobile} {
-    padding: 30px 15px;
-  }
-}
+//   // NEW MOBILE FRIENDLY RULES
+//   @media #{$bp-below-mobile} {
+//     padding: 30px 15px;
+//   }
+// }
 
 .project-page-card-title {
   color: #333;
